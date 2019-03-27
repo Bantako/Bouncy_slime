@@ -23,7 +23,7 @@ void draw() {
 void fillRect(color c){
   //stroke(r, g, b, a);
   fill(c);
-  strokeWeight(3);
+  strokeWeight(4);
   for(int i = 0; i < width/BLOCK_SIZE; i++){
       for(int j = 0;j < height/BLOCK_SIZE; j++){
         rect(i * BLOCK_SIZE, j * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE, 8);
